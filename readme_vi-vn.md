@@ -160,7 +160,7 @@ Ngoài các biện pháp phòng ngừa đã đề cập, để đối phó với
 
 Ngoài việc lấy thông tin trực tiếp và đánh cắp dữ liệu, dịch vụ trung chuyển không đáng tin cậy còn có thể tận dụng vị trí trung gian để phát động các hành động cao cấp, tinh vi hơn.
 
-### Phương thức 3: Đánh cắp tài nguyên (Resource Hijacking)
+### Đánh cắp tài nguyên (Resource Hijacking)
 
 Mục tiêu của người vận hành không nhất thiết là dữ liệu người dùng, mà có thể là tài nguyên tính toán của họ. Đây là rủi ro ký sinh lâu dài.
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: Liên tục tiêu hao tài nguyên cho kẻ tấn công
 ```
 
-### Phương thức 4: Kỹ thuật xã hội và sửa đổi nội dung (Social Engineering & Content Tampering)
+### Kỹ thuật xã hội và sửa đổi nội dung (Social Engineering & Content Tampering)
 
 Đây là một trong những rủi ro cần cảnh giác nhất, vì nó không dựa vào việc thực thi mã, mà trực tiếp thao túng nội dung văn bản trả về từ mô hình, tận dụng niềm tin của người dùng vào AI.
 
@@ -200,7 +200,7 @@ sequenceDiagram
 
 Loại rủi ro này có thể vượt qua mọi biện pháp phòng thủ kỹ thuật như sandbox, container và danh sách trắng lệnh, trực tiếp ảnh hưởng đến quá trình ra quyết định của con người.
 
-### Phương thức 5: Rủi ro chuỗi cung ứng phần mềm (Software Supply Chain Risk)
+### Rủi ro chuỗi cung ứng phần mềm (Software Supply Chain Risk)
 
 Loại rủi ro này nhắm vào toàn bộ dự án của lập trình viên, chứ không phải tương tác đơn lẻ.
 

@@ -153,7 +153,7 @@ sequenceDiagram
 
 단순한 정보 획득과 데이터 하이재킹 외에도, 신뢰할 수 없는 전환 서비스는 중간자로서 더 고급이고 은밀한 공격을 수행할 수 있습니다.
 
-### 방식 3: 리소스 하이재킹 (Resource Hijacking)
+### 리소스 하이재킹 (Resource Hijacking)
 
 운영자의 목표가 반드시 사용자 데이터에 있는 것은 아니며, 사용자의 컴퓨팅 리소스일 수도 있습니다. 이는 장기적인 기생식 위험입니다.
 
@@ -180,7 +180,7 @@ sequenceDiagram
     Client->>ThirdParty: 지속적인 자원 낭비
 ```
 
-### 방식 4: 사회공학 및 콘텐츠 조작 (Social Engineering & Content Tampering)
+### 사회공학 및 콘텐츠 조작 (Social Engineering & Content Tampering)
 
 이는 가장 경계해야 할 위험 중 하나로, 코드 실행에 의존하지 않고 모델 반환 텍스트 콘텐츠를 조작하여 사용자의 AI 신뢰를 이용합니다.
 
@@ -193,7 +193,7 @@ sequenceDiagram
 
 이 위험은 샌드박스, 컨테이너, 명령 화이트리스트 등 모든 기술적 방어 수단을 우회할 수 있으며, 인간 결정 단계에 직접 영향을 미칩니다.
 
-### 방식 5: 소프트웨어 공급망 위험 (Software Supply Chain Risk)
+### 소프트웨어 공급망 위험 (Software Supply Chain Risk)
 
 이 위험은 개발자의 전체 프로젝트를 대상으로 하며 단일 상호작용에 국한되지 않습니다.
 

@@ -160,7 +160,7 @@ In addition to previously mentioned measures, data hijacking prevention requires
 
 Beyond direct information acquisition and data hijacking, untrusted relay services can leverage their intermediary position to launch more sophisticated, stealthy operations.
 
-### Pattern 3: Resource Hijacking
+### Resource Hijacking
 
 Operators may target users' computing resources rather than data. This represents a long-term parasitic risk.
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: Continuously consume resources for attacker
 ```
 
-### Pattern 4: Social Engineering & Content Tampering
+### Social Engineering & Content Tampering
 
 This represents one of the most concerning risks, as it manipulates user trust in AI without relying on code execution.
 
@@ -200,7 +200,7 @@ This represents one of the most concerning risks, as it manipulates user trust i
 
 This risk bypasses all technical defenses like sandboxes, containers, and instruction whitelists, directly impacting human decision-making processes.
 
-### Pattern 5: Software Supply Chain Risk
+### Software Supply Chain Risk
 
 This risk targets developers' entire projects rather than single interactions.
 

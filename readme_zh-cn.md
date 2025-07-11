@@ -160,7 +160,7 @@ sequenceDiagram
 
 除了直接的信息获取和数据劫持，不可信的中转服务还可以利用其中间人地位，发动更高级、更隐蔽的行动。
 
-### 方式三：资源劫持 (Resource Hijacking)
+### 资源劫持 (Resource Hijacking)
 
 操作者的目标不一定是用户的数据，而可能是用户的计算资源。这是一种长期的寄生式风险。
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: 持续为攻击者消耗资源
 ```
 
-### 方式四：社会工程与内容篡改 (Social Engineering & Content Tampering)
+### 社会工程与内容篡改 (Social Engineering & Content Tampering)
 
 这是最需要警惕的风险之一，因为它不依赖于任何代码执行，而是直接操纵模型返回的文本内容，利用用户对AI的信任。
 
@@ -200,7 +200,7 @@ sequenceDiagram
 
 这种风险可以绕过所有沙箱、容器和指令白名单等技术防御手段，直接影响人类决策环节。
 
-### 方式五：软件供应链风险 (Software Supply Chain Risk)
+### 软件供应链风险 (Software Supply Chain Risk)
 
 这种风险的目标是开发者的整个项目，而非单次交互。
 

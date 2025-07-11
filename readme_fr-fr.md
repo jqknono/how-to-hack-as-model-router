@@ -160,7 +160,7 @@ En plus des mesures de prévention mentionnées précédemment, pour se protége
 
 Outre la récupération d'information directe et le détournement de données, un service de relais non fiable peut exploiter sa position d'intermédiaire pour mener des actions plus sophistiquées et discrètes.
 
-### Mode 3 : Détournement de ressources (Resource Hijacking)
+### Détournement de ressources (Resource Hijacking)
 
 L'objectif de l'opérateur n'est pas nécessairement les données de l'utilisateur mais plutôt ses ressources de calcul. C'est un risque parasite à long terme.
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: Consommation continue de ressources au profit de l'attaquant
 ```
 
-### Mode 4 : Ingénierie sociale et altération de contenu (Social Engineering & Content Tampering)
+### Ingénierie sociale et falsification de contenu (Social Engineering & Content Tampering)
 
 Risque particulièrement inquiétant car il ne dépend d'aucune exécution de code mais manipule directement le contenu textuel renvoyé par le modèle, exploitant la confiance de l'utilisateur en l'IA.
 
@@ -200,7 +200,7 @@ Risque particulièrement inquiétant car il ne dépend d'aucune exécution de co
 
 Ce risque contourne toutes les mesures de défense techniques comme les sandbox, les conteneurs et les listes blanches d'instructions, affectant directement la prise de décision humaine.
 
-### Mode 5 : Risque sur la chaîne d'approvisionnement logicielle (Software Supply Chain Risk)
+### Risque de la chaîne d'approvisionnement logicielle (Software Supply Chain Risk)
 
 Le but est ici d'affecter l'ensemble du projet du développeur, plutôt qu'une interaction isolée.
 

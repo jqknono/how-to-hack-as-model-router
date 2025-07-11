@@ -160,7 +160,7 @@ Zusätzlich zu den bereits genannten Schutzmaßnahmen sollten gegen Datenüberna
 
 Neben direkter Informationsbeschaffung und Datenübernahme können unvertrauenswürdige Zwischenübertragungsdienste in ihrer Rolle als "Man-in-the-Middle" auch fortgeschrittenere und verdecktere Aktionen ausführen.
 
-### Methode 3: Ressourcenübernahme (Resource Hijacking)
+### Ressourcenübernahme (Resource Hijacking)
 
 Das Ziel des Angreifers sind nicht unbedingt die Benutzerdaten, sondern möglicherweise die Rechenressourcen des Benutzers. Dies ist ein langfristiges parasitäres Risiko.
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: Kontinuierlich Ressourcen für Angreifer verbrauchen
 ```
 
-### Methode 4: Soziale Manipulation & Inhaltsverfälschung (Social Engineering & Content Tampering)
+### Soziale Manipulation & Inhaltsverfälschung (Social Engineering & Content Tampering)
 
 Dies ist eines der besorgniserregendsten Risiken, da es nicht von einer Code-Ausführung abhängt, sondern direkt den Textinhalt der Modellantwort manipuliert und das Vertrauen des Benutzers in KI ausnutzt.
 
@@ -200,7 +200,7 @@ Dies ist eines der besorgniserregendsten Risiken, da es nicht von einer Code-Aus
 
 Dieses Risiko umgeht alle technischen Sicherheitsmaßnahmen wie Sandbox, Container und Befehls-Whitelist und greift direkt die menschliche Entscheidungsfindung an.
 
-### Methode 5: Software-Lieferkettenrisiko (Software Supply Chain Risk)
+### Software-Lieferkettenrisiko (Software Supply Chain Risk)
 
 Dieses Risiko zielt auf das gesamte Projekt des Entwicklers ab, nicht nur auf eine einzelne Interaktion.
 

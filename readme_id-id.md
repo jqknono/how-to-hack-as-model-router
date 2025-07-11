@@ -160,7 +160,7 @@ Selain langkah pencegahan yang disebutkan sebelumnya, untuk menghadapi perampasa
 
 Selain pengambilan informasi langsung dan perampasan data, layanan perantara yang tidak aman juga dapat memanfaatkan posisinya sebagai man-in-the-middle untuk meluncurkan aksi yang lebih lanjut dan lebih tersembunyi.
 
-### Cara III: Pembajakan Sumber Daya (Resource Hijacking)
+### Pembajakan Sumber Daya (Resource Hijacking)
 
 Tujuan operator mungkin bukan data pengguna, melainkan sumber daya komputasi pengguna. Ini adalah risiko parasit jangka panjang.
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: Terus-menerus menguras sumber daya untuk penyerang
 ```
 
-### Cara IV: Rekayasa Sosial & Pemalsuan Konten (Social Engineering & Content Tampering)
+### Rekayasa Sosial & Pemalsuan Konten (Social Engineering & Content Tampering)
 
 Ini adalah salah satu risiko yang paling perlu diwaspadai, karena tidak bergantung pada eksekusi kode apa pun, melainkan langsung memanipulasi konten teks yang dikembalikan model, memanfaatkan kepercayaan pengguna terhadap AI.
 
@@ -200,7 +200,7 @@ Ini adalah salah satu risiko yang paling perlu diwaspadai, karena tidak bergantu
 
 Risiko ini dapat menghindari semua pertahanan teknis seperti sandbox, kontainer, dan daftar putih instruksi, secara langsung mempengaruhi tahap pengambilan keputusan manusia.
 
-### Cara V: Risiko Rantai Pasok Perangkat Lunak (Software Supply Chain Risk)
+### Risiko Rantai Pasok Perangkat Lunak (Software Supply Chain Risk)
 
 Risiko ini menargetkan seluruh proyek pengembang, bukan hanya interaksi tunggal.
 

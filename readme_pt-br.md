@@ -160,7 +160,7 @@ Além das medidas mencionadas anteriormente, contra sequestro de dados também �
 
 Além da obtenção direta de informações e sequestro de dados, serviços de redirecionamento não confiáveis podem usar sua posição de intermediário para lançar ações mais avançadas e discretas.
 
-### Método 3: Sequestro de Recursos (Resource Hijacking)
+### Sequestro de Recursos (Resource Hijacking)
 
 O objetivo do operador nem sempre é os dados do usuário, mas sim seus recursos computacionais. Este é um risco de longo prazo e parasitário.
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: Consumir recursos continuamente para o atacante
 ```
 
-### Método 4: Engenharia Social e Alteração de Conteúdo (Social Engineering & Content Tampering)
+### Engenharia Social e Adulteração de Conteúdo (Social Engineering & Content Tampering)
 
 Este é um dos riscos mais preocupantes, pois não depende de execução de código, mas manipula diretamente o conteúdo textual retornado pelo modelo, explorando a confiança do usuário na IA.
 
@@ -200,7 +200,7 @@ Este é um dos riscos mais preocupantes, pois não depende de execução de cód
 
 Este risco pode contornar todas as defesas técnicas como sandboxes, contêineres e listas brancas de comandos, afetando diretamente o processo de decisão humana.
 
-### Método 5: Risco na Cadeia de Suprimento de Software (Software Supply Chain Risk)
+### Risco na Cadeia de Suprimentos de Software (Software Supply Chain Risk)
 
 Este risco visa todo o projeto do desenvolvedor, não apenas uma interação específica.
 

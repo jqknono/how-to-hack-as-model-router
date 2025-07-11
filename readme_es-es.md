@@ -160,7 +160,7 @@ Además de las medidas mencionadas anteriormente, para combatir el secuestro de 
 
 Además de la obtención directa de información y el secuestro de datos, los servicios de reenvío no confiables pueden aprovechar su posición de intermediario para lanzar acciones más avanzadas y sutiles.
 
-### Forma 3: Secuestro de recursos (Resource Hijacking)
+### Secuestro de Recursos (Resource Hijacking)
 
 El objetivo del operador no necesariamente es los datos del usuario, sino sus recursos computacionales. Este es un riesgo parasitario a largo plazo.
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: Consumo continuo de recursos para el atacante
 ```
 
-### Forma 4: Ingeniería social y alteración de contenido (Social Engineering & Content Tampering)
+### Ingeniería Social y Manipulación de Contenido (Social Engineering & Content Tampering)
 
 Este es uno de los riesgos más preocupantes, ya que no depende de la ejecución de código, sino que manipula directamente el contenido textual devuelto por el modelo, aprovechándose de la confianza del usuario en la IA.
 
@@ -200,7 +200,7 @@ Este es uno de los riesgos más preocupantes, ya que no depende de la ejecución
 
 Este riesgo puede sortear todas las defensas técnicas como sandboxes, contenedores y listas blancas de instrucciones, afectando directamente el proceso de toma de decisiones humanas.
 
-### Forma 5: Riesgo en la cadena de suministro de software (Software Supply Chain Risk)
+### Riesgo de la Cadena de Suministro de Software (Software Supply Chain Risk)
 
 Este riesgo apunta al proyecto completo del desarrollador, no solo a una interacción individual.
 

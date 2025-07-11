@@ -160,7 +160,7 @@ sequenceDiagram
 
 除了直接的信息取得和數據劫持，不可信的中轉服務還可以利用其中間人地位，發動更高级、更隱蔽的行動。
 
-### 方式三：資源劫持 (Resource Hijacking)
+### 資源劫持 (Resource Hijacking)
 
 操作者的目標不一定是使用者的數據，而可能是使用者的計算資源。這是一種長期的寄生式風險。
 
@@ -187,7 +187,7 @@ sequenceDiagram
     Client->>ThirdParty: 持續為攻擊者消耗資源
 ```
 
-### 方式四：社會工程與內容篡改 (Social Engineering & Content Tampering)
+### 社會工程與內容篡改 (Social Engineering & Content Tampering)
 
 這是最重要的風險之一，因為它不依賴於任何代碼執行，而是直接操縱模型返回的文本內容，利用使用者對AI的信任。
 
@@ -200,7 +200,7 @@ sequenceDiagram
 
 這種風險可以繞過所有沙盒、容器和指令白名單等技術防禦手段，直接影響人類決策環節。
 
-### 方式五：軟體供應鏈風險 (Software Supply Chain Risk)
+### 軟體供應鏈風險 (Software Supply Chain Risk)
 
 這種風險的目標是開發者的整個項目，而非單次交互。
 

