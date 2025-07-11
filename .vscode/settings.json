@@ -1,0 +1,76 @@
+{
+    "projectTranslator.userPrompts": [
+        "The words in the mermaid diagram should be translated to the target language."
+    ],
+    "projectTranslator.currentVendor": "modelscope",
+    "projectTranslator.specifiedFiles": [
+        {
+            "sourceFile": {
+                "path": "readme.md",
+                "lang": "zh-cn"
+            },
+            "targetFiles": [
+                {
+                    "path": "readme_en-us.md",
+                    "lang": "en-us"
+                },
+                {
+                    "path": "readme_ja-jp.md",
+                    "lang": "ja-jp"
+                },
+                {
+                    "path": "readme_ko-kr.md",
+                    "lang": "ko-kr"
+                },
+                {
+                    "path": "readme_vi-vn.md",
+                    "lang": "vi-vn"
+                },
+                {
+                    "path": "readme_th-th.md",
+                    "lang": "th-th"
+                },
+                {
+                    "path": "readme_zh-tw.md",
+                    "lang": "zh-tw"
+                },
+                {
+                    "path": "readme_zh-hk.md",
+                    "lang": "zh-hk"
+                },
+                {
+                    "path": "readme_es-es.md",
+                    "lang": "es-es"
+                },
+                {
+                    "path": "readme_de-de.md",
+                    "lang": "de-de"
+                },
+                {
+                    "path": "readme_pt-br.md",
+                    "lang": "pt-br"
+                },
+                {
+                    "path": "readme_fr-fr.md",
+                    "lang": "fr-fr"
+                },
+                {
+                    "path": "readme_it-it.md",
+                    "lang": "it-it"
+                },
+                {
+                    "path": "readme_ru-ru.md",
+                    "lang": "ru-ru"
+                },
+                {
+                    "path": "readme_ar-sa.md",
+                    "lang": "ar-sa"
+                },
+                {
+                    "path": "readme_id-id.md",
+                    "lang": "id-id"
+                },
+            ]
+        }
+    ],
+}
