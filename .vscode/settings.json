@@ -6,12 +6,12 @@
     "projectTranslator.specifiedFiles": [
         {
             "sourceFile": {
-                "path": "readme.md",
+                "path": "readme_zh-cn.md",
                 "lang": "zh-cn"
             },
             "targetFiles": [
                 {
-                    "path": "readme_en-us.md",
+                    "path": "readme.md",
                     "lang": "en-us"
                 },
                 {
